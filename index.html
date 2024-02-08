@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade e cores</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(217, 233, 193);
+            display: flex;
+            justify-content: center;
+        }
+        main {
+            background-color: rgb(231, 231, 149);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+            border-radius: 2rem;
+            padding: 0.75rem;
+            box-shadow: 0px 0px 14px 13px rgba(0,0,0,0.1);
+            margin: 30px;
+        }
+        a {
+            display: block;
+        }
+        img, p {
+            display: inline;
+        }
+        li {
+            margin: 5%;
+            height: 20%;
+        }
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Prova Introdução à responsividade e cores</h1>
+            <p>[H/C-A05] O recurso de Lista é muito utilizado em projetos de desenvolvimento de sites e softwares para organizar informações em tópicos de texto. Com o uso das tags adequadas, é possível criar listas ordenadas e não-ordenadas.</p>
+            <p>Nessa atividade, você deverá criar uma página web com uma lista não-ordenada, onde cada item da lista deve ser um link para outra página web. Além disso, cada item deve conter uma imagem pequena e um texto escrito ao lado da imagem. A lista deve ter pelo menos 5 itens.</p>
+            <p>Lembre-se de utilizar as tags adequadas do HTML para criar a lista e inserir as imagens e links, utilize o flex-box para organizar a imagem e o texto, que estarão lado a lado.</p>
+        </header>
+        
+        <section>
+            <h1>5 maiores cidades do mundo e suas curiosidades</h1>
+            <ul>
+                <li class="cidades">
+                    <a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo" target="_blank" rel="noopener noreferrer">São Paulo, SP</a>
+                    <img src="https://visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1166728645-1.jpg">
+                    <p>12,33 milhões de habitantes</p>
+                </li>
+                <li class="cidades">
+                    <a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro" target="_blank" rel="noopener noreferrer">Rio de Janeiro, RJ</a>
+                    <img src="https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg">
+                    <p>6,748 milhões</p>
+                </li>
+                <li class="cidades">
+                    <a href="https://pt.wikipedia.org/wiki/Bras%C3%ADlia" target="_blank" rel="noopener noreferrer">Brasília, DF</a>
+                    <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/04/brasilia.jpg">
+                    <p>2,817 milhões</p>
+                </li>
+                <li class="cidades">
+                    <a href="https://pt.wikipedia.org/wiki/Fortaleza" target="_blank" rel="noopener noreferrer">Fortaleza, CE</a>
+                    <img src="https://blog.queroumnegocio.com.br/wp-content/uploads/2020/02/bom-negocio-em-fortaleza-ce-20200210142436-1.jpg-1-1024x683.jpg">
+                    <p>2,687 milhões</p>
+                </li>
+                <li class="cidades">
+                    <a href="https://pt.wikipedia.org/wiki/Salvador" target="_blank" rel="noopener noreferrer">Salvador, BA</a>
+                    <img src="https://revistaazul.voeazul.com.br/wp-content/uploads/2023/03/conheca-salvador-e-se-apaixone-pela-capital-baiana.jpeg">
+                    <p>2,418 milhões</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
